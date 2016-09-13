@@ -1,0 +1,5 @@
+这是一个简单工厂模式的例子。
+示例中，我们创造的工厂Factory用来生产不同的车。
+
+建了一个Parent类，作为所有实例的父类。
+ChildrenOne和ChildrenTwo作为两个不同的实例。
