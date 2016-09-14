@@ -2,14 +2,14 @@ package com.sh.simple;
 
 public class Factory {
     
-    public void createProduct(String column){
+    public Parent createProduct(String column){
+        Parent p = null;
         if("one".equals(column)){
-            Parent p = new ChildrenOne();
-            System.out.println(p.car());
+            p = new ChildrenOne();
         }else if("two".equals(column)){
-            Parent p = new ChildrenTwo();
-            System.out.println(p.car());
+            p = new ChildrenTwo();
         }
+        return p;
     }
     
 }
