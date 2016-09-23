@@ -5,7 +5,7 @@ import com.sh.util.XMLUtil;
 public class Test {
     
     public static void main(String[] args) {
-        String configUrl = "src/mian/java/com/sh/simple/config.xml";
+        String configUrl = "src/main/java/com/sh/simple/config.xml";
         String type = XMLUtil.getType(configUrl);
         Parent p;
         p = Factory.createProduct(type);
