@@ -1,0 +1,3 @@
+使用IODH（Initialization Demand Holder）技术解决单例模式性能问题。
+
+将实例交给内部类进行实例化，java虚拟机可以保证该类只会实例化一次。
